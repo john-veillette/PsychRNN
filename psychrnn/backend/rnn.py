@@ -18,7 +18,7 @@ from psychrnn.backend.regularizations import Regularizer
 from psychrnn.backend.loss_functions import LossFunction
 from psychrnn.backend.initializations import WeightInitializer, GaussianSpectralRadius
 
-tf.compat.v1.disable_eager_execution()
+#tf.compat.v1.disable_eager_execution()
 
 class RNN(ABC):
     """ The base recurrent neural network class.

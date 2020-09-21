@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from warnings import warn
 
-tf.compat.v1.disable_eager_execution()
+#tf.compat.v1.disable_eager_execution()
 
 
 class WeightInitializer(object):
